@@ -1884,8 +1884,8 @@ var Icon$p = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 62" }, props),
+        React__default['default'].createElement("image", { width: "205", height: "62", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
 };
 
 var Icon$o = function (props) {
@@ -2106,114 +2106,116 @@ var templateObject_1$c;
 
 var links = [
     {
-        label: "Home",
-        icon: "HomeIcon",
-        href: "/",
+        label: 'Home',
+        icon: 'HomeIcon',
+        href: '/',
     },
     {
-        label: "Trade",
-        icon: "TradeIcon",
+        label: 'Trade',
+        icon: 'TradeIcon',
         items: [
             {
-                label: "Exchange",
-                href: "https://exchange.pancakeswap.finance",
+                label: 'Exchange',
+                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=', // toChange
             },
             {
-                label: "Liquidity",
-                href: "https://exchange.pancakeswap.finance/#/pool",
+                label: 'Liquidity',
+                href: 'https://exchange.pancakeswap.finance/#/pool',
             },
         ],
     },
     {
-        label: "Farms",
-        icon: "FarmIcon",
-        href: "/farms",
+        label: 'Farms',
+        icon: 'FarmIcon',
+        href: '/farms',
     },
     {
-        label: "Pools",
-        icon: "PoolIcon",
-        href: "/syrup",
+        label: 'Nests',
+        icon: 'PoolIcon',
+        href: '/nests',
     },
     {
-        label: "Lottery",
-        icon: "TicketIcon",
-        href: "/lottery",
+        label: 'Referrals',
+        icon: 'GroupsIcon',
+        href: '/referrals',
     },
     {
-        label: "NFT",
-        icon: "NftIcon",
-        href: "/nft",
-    },
-    {
-        label: "Profile & Teams",
-        icon: "GroupsIcon",
+        label: 'Features',
+        icon: 'RoadmapIcon',
         items: [
             {
-                label: "Leaderboard",
-                href: "/",
+                label: 'FairPlay Technology',
+                href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
             },
             {
-                label: "YourProfile",
-                href: "/",
+                label: 'Automatic Emission Reduction',
+                href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
             },
+            {
+                label: 'Automatic Liquidity',
+                href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
+            },
+            {
+                label: 'Automatic Burning',
+                href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+            }
         ],
-        calloutClass: "rainbow",
     },
     {
-        label: "Info",
-        icon: "InfoIcon",
+        label: 'Charts',
+        icon: 'InfoIcon',
         items: [
             {
-                label: "Overview",
-                href: "https://pancakeswap.info",
+                label: 'PancakeSwap (Available on launch)',
+                href: 'https://pancakeswap.info/token/',
             },
             {
-                label: "Tokens",
-                href: "https://pancakeswap.info/tokens",
+                label: 'AstroTools (Available on launch)',
+                href: 'https://app.astrotools.io/pancake-pair-explorer/',
             },
             {
-                label: "Pairs",
-                href: "https://pancakeswap.info/pairs",
-            },
-            {
-                label: "Accounts",
-                href: "https://pancakeswap.info/accounts",
+                label: 'PooCoin (Available on launch)',
+                href: 'https://poocoin.app/',
             },
         ],
     },
     {
-        label: "IFO",
-        icon: "IfoIcon",
+        label: 'Security and Audits',
+        icon: 'AuditIcon',
         items: [
             {
-                label: "Next",
-                href: "/ifo",
+                label: 'Audits',
+                href: 'https://docs.neutronswap.com/security/audits',
             },
             {
-                label: "History",
-                href: "/ifo/history",
+                label: 'No Migrator Code',
+                href: 'https://docs.neutronswap.com/security/no-migrator-code',
+            },
+            {
+                label: 'Emergency Withdraw',
+                href: 'https://docs.neutronswap.com/security/time-lock',
+            },
+            {
+                label: 'Timelock',
+                href: 'https://docs.neutronswap.com/security/emergency-withdraw',
             },
         ],
     },
     {
-        label: "More",
-        icon: "MoreIcon",
+        label: 'Links',
+        icon: 'MoreIcon',
         items: [
-            // {
-            //   label: "Voting",
-            //   href: "https://voting.pancakeswap.finance",
-            // },
             {
-                label: "Github",
-                href: "https://github.com/goosedefi/",
+                label: 'Github',
+                href: 'https://github.com/NeutronSwap/',
             },
             {
-                label: "Docs",
-                href: "https://goosedefi.gitbook.io/goose-finance/",
+                label: 'Docs',
+                href: 'https://docs.neutronswap.com/',
             },
             {
-                label: "Blog",
-                href: "https://goosefinance.medium.com/",
+                label: 'Blog',
+                href: 'https://neutronswap.medium.com/',
             },
         ],
     },
@@ -2222,70 +2224,17 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/goosedefi",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            {
-                label: "中文",
-                href: "https://t.me/goosefinancechinese",
-            },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            {
-                label: "Italiano",
-                href: "https://t.me/goosefinanceitalian",
-            },
-            {
-                label: "русский",
-                href: "https://t.me/goosefinancerussian",
-            },
-            {
-                label: "Türkiye",
-                href: "https://t.me/GooseFinanceTurkey",
-            },
-            // {
-            //   label: "Português",
-            //   href: "https://t.me/PancakeSwapPortuguese",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/goosefinancespanish",
-            },
-            {
-                label: "日本語",
-                href: "https://t.me/goosefinancejapanese",
-            },
-            {
-                label: "Français",
-                href: "https://t.me/goosefinancefrench",
-            },
-            {
-                label: "Announcements",
-                href: "https://t.me/goosefinanceann",
-            },
-            {
-                label: "Price Bot",
-                href: "https://t.me/BinanceRocketEGG",
-            },
-        ],
+        href: "https://t.me/NeutronSwap"
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/goosedefi",
+        href: "https://twitter.com/NeutronSwap",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/GooseFinanceofficial",
+        href: "https://www.reddit.com/r/NeutronSwap",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2393,16 +2342,16 @@ var PanelBody = function (_a) {
 var templateObject_1$9;
 
 var Icons = IconModule;
-var MoonIcon = Icons.MoonIcon, SunIcon = Icons.SunIcon, LanguageIcon = Icons.LanguageIcon;
+Icons.MoonIcon; Icons.SunIcon; Icons.LanguageIcon;
 var Container = styled__default['default'].div(templateObject_1$8 || (templateObject_1$8 = __makeTemplateObject(["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"], ["\n  flex: none;\n  padding: 8px 4px;\n  background-color: ", ";\n  border-top: solid 2px rgba(133, 133, 133, 0.1);\n"])), function (_a) {
     var theme = _a.theme;
     return theme.nav.background;
 });
 var PriceLink = styled__default['default'].a(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
-var SettingsEntry = styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
+styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav, toggleTheme = _a.toggleTheme, isDark = _a.isDark, cakePriceUsd = _a.cakePriceUsd, currentLang = _a.currentLang, langs = _a.langs, setLang = _a.setLang, priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
     if (!isPushed) {
         return (React__default['default'].createElement(Container, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2417,22 +2366,9 @@ var PanelFooter = function (_a) {
                 var Icon = Icons[social.icon];
                 var iconProps = { width: "24px", color: "textSubtle", style: { cursor: "pointer" } };
                 var mr = index < socials.length - 1 ? "8px" : 0;
-                if (social.items) {
-                    return (React__default['default'].createElement(Dropdown, { key: social.label, position: "top", target: React__default['default'].createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React__default['default'].createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
-                }
                 return (React__default['default'].createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React__default['default'].createElement(Icon, __assign({}, iconProps))));
-            }))),
-        React__default['default'].createElement(SettingsEntry, null,
-            React__default['default'].createElement(Button, { variant: "text", onClick: function () { return toggleTheme(!isDark); } },
-                React__default['default'].createElement(Flex, { alignItems: "center" },
-                    React__default['default'].createElement(SunIcon, { color: isDark ? "textDisabled" : "text", width: "24px" }),
-                    React__default['default'].createElement(Text, { color: "textDisabled", mx: "4px" }, "/"),
-                    React__default['default'].createElement(MoonIcon, { color: isDark ? "text" : "textDisabled", width: "24px" }))),
-            React__default['default'].createElement(Dropdown, { position: "top-right", target: React__default['default'].createElement(Button, { variant: "text", startIcon: React__default['default'].createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
-                    React__default['default'].createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
-                // Safari fix
-                style: { minHeight: "32px", height: "auto" } }, lang.language)); })))));
+            })))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;
 
