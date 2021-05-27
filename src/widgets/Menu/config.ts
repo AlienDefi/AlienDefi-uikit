@@ -1,186 +1,135 @@
-export const links = [
+export const links =[
   {
-    label: "Home",
-    icon: "HomeIcon",
-    href: "/",
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: '/',
   },
   {
-    label: "Trade",
-    icon: "TradeIcon",
+    label: 'Trade',
+    icon: 'TradeIcon',
     items: [
       {
-        label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        label: 'Exchange',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=',// toChange
       },
       {
-        label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        label: 'Liquidity',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
   {
-    label: "Farms",
-    icon: "FarmIcon",
-    href: "/farms",
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: '/farms',
   },
   {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
+    label: 'Nests',
+    icon: 'PoolIcon',
+    href: '/nests',
   },
   {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
+    label: 'Referrals',
+    icon: 'GroupsIcon',
+    href: '/referrals',
   },
   {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
+    label: 'Features',
+    icon: 'RoadmapIcon',
     items: [
       {
-        label: "Leaderboard",
-        href: "/",
+        label: 'FairPlay Technology',
+        href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
       },
       {
-        label: "YourProfile",
-        href: "/",
+        label: 'Automatic Emission Reduction',
+        href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
       },
+      {
+        label: 'Automatic Liquidity',
+        href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
+      },
+      {
+        label: 'Automatic Burning',
+        href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+      }
     ],
-    calloutClass: "rainbow",
   },
   {
-    label: "Info",
-    icon: "InfoIcon",
+    label: 'Charts',
+    icon: 'InfoIcon',
     items: [
       {
-        label: "Overview",
-        href: "https://pancakeswap.info",
+        label: 'PancakeSwap (Available on launch)',
+        href: 'https://pancakeswap.info/token/',
       },
       {
-        label: "Tokens",
-        href: "https://pancakeswap.info/tokens",
+        label: 'AstroTools (Available on launch)',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/',
       },
       {
-        label: "Pairs",
-        href: "https://pancakeswap.info/pairs",
-      },
-      {
-        label: "Accounts",
-        href: "https://pancakeswap.info/accounts",
+        label: 'PooCoin (Available on launch)',
+        href: 'https://poocoin.app/',
       },
     ],
   },
   {
-    label: "IFO",
-    icon: "IfoIcon",
+    label: 'Security and Audits',
+    icon: 'AuditIcon',
     items: [
       {
-        label: "Next",
-        href: "/ifo",
+        label: 'Audits',
+        href: 'https://docs.neutronswap.com/security/audits',
       },
       {
-        label: "History",
-        href: "/ifo/history",
+        label: 'No Migrator Code',
+        href: 'https://docs.neutronswap.com/security/no-migrator-code',
+      },
+      {
+        label: 'Emergency Withdraw',
+        href: 'https://docs.neutronswap.com/security/time-lock',
+      },
+      {
+        label: 'Timelock',
+        href: 'https://docs.neutronswap.com/security/emergency-withdraw',
       },
     ],
   },
   {
-    label: "More",
-    icon: "MoreIcon",
+    label: 'Links',
+    icon: 'MoreIcon',
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/NeutronSwap/',
       },
       {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Docs',
+        href: 'https://docs.neutronswap.com/',
       },
       {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        label: 'Blog',
+        href: 'https://neutronswap.medium.com/',
       },
     ],
   },
-];
+]
 
 export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/goosedefi",
-      },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      {
-        label: "中文",
-        href: "https://t.me/goosefinancechinese",
-      },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      {
-        label: "Italiano",
-        href: "https://t.me/goosefinanceitalian",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/goosefinancerussian",
-      },
-      {
-        label: "Türkiye",
-        href: "https://t.me/GooseFinanceTurkey",
-      },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      {
-        label: "Español",
-        href: "https://t.me/goosefinancespanish",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/goosefinancejapanese",
-      },
-      {
-        label: "Français",
-        href: "https://t.me/goosefinancefrench",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/goosefinanceann",
-      },
-      {
-        label: "Price Bot",
-        href: "https://t.me/BinanceRocketEGG",
-      },
-    ],
+    href: "https://t.me/NeutronSwap"
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/goosedefi",
+    href: "https://twitter.com/NeutronSwap",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/GooseFinanceofficial",
+    href: "https://www.reddit.com/r/NeutronSwap",
   },
 ];
 
