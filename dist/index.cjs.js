@@ -352,8 +352,8 @@ var Icon$P = function (props) {
 };
 
 var Icon$O = function (props) {
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 32 32" }, props),
-        React__default['default'].createElement("image", { width: "32", height: "32", href: "/images/egg/logo.png" })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 64 64" }, props),
+        React__default['default'].createElement("image", { width: "64", height: "64", href: "/images/egg/logo.png" })));
 };
 
 var Icon$N = function (props) {
@@ -1884,8 +1884,8 @@ var Icon$p = function (props) {
 
 var Logo$1 = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 62" }, props),
-        React__default['default'].createElement("image", { width: "205", height: "62", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
+    return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 205 60" }, props),
+        React__default['default'].createElement("image", { width: "205", height: "60", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewWhite.png' })));
 };
 
 var Icon$o = function (props) {
