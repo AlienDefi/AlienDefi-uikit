@@ -98,7 +98,7 @@ export const links =[
     ],
   },
   {
-    label: 'Socials',
+    label: 'Technicals',
     icon: 'MoreIcon',
     items: [
       {
