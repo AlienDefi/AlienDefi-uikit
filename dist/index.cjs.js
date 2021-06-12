@@ -678,7 +678,7 @@ var getBoxShadow$1 = function (_a) {
     }
     return theme.card.boxShadow;
 };
-var StyledCard = styled__default['default'].div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 10px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
+var StyledCard = styled__default['default'].div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 12px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 12px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
@@ -2125,116 +2125,114 @@ var links = [
         ],
     },
     {
-        label: 'Farms',
+        label: 'Stake',
         icon: 'FarmIcon',
-        href: '/farms',
-    },
-    {
-        label: 'Nests',
-        icon: 'PoolIcon',
-        href: '/nests',
-    },
-    {
-        label: 'Referrals',
-        icon: 'GroupsIcon',
-        href: '/referrals',
-    },
-    {
-        label: 'Features',
-        icon: 'RoadmapIcon',
         items: [
             {
-                label: 'FairPlay Technology',
-                href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
+                label: 'Farm',
+                href: '/farms',
             },
             {
-                label: 'Automatic Emission Reduction',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
-            },
-            {
-                label: 'Automatic Liquidity',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
-            },
-            {
-                label: 'Automatic Burning',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+                label: 'Nest',
+                href: '/nests',
             }
         ],
     },
     {
-        label: 'Charts',
+        label: 'Referral',
+        icon: 'GroupsIcon',
+        href: '/referrals',
+    },
+    {
+        label: 'Layered Farming',
+        icon: 'LayerIcon',
+        href: '/comingsoon',
+    },
+    {
+        label: 'Anti-Bots',
+        icon: 'NftIcon',
+        href: 'https://docs.aliendefi.com/core-features/next-gen-antibots',
+    },
+    {
+        label: 'Core Features',
+        icon: 'RoadmapIcon',
+        items: [
+            {
+                label: 'Automatic Emission Reduction',
+                href: 'https://docs.aliendefi.com/core-features/automatic-emission-reduction',
+            },
+            {
+                label: 'Automatic Liquidity and Burning',
+                href: 'https://docs.aliendefi.com/core-features/automated-liquidity-and-burning',
+            },
+            {
+                label: 'Harvest Lockup',
+                href: 'https://docs.aliendefi.com/core-features/harvest-lockup',
+            }
+        ],
+    },
+    {
+        label: 'Analytics',
         icon: 'InfoIcon',
         items: [
             {
-                label: 'PancakeSwap (Available on launch)',
-                href: 'https://pancakeswap.info/token/',
+                label: 'PancakeSwap',
+                href: 'https://pancakeswap.info/token/', // to change
             },
             {
-                label: 'AstroTools (Available on launch)',
-                href: 'https://app.astrotools.io/pancake-pair-explorer/',
-            },
-            {
-                label: 'PooCoin (Available on launch)',
-                href: 'https://poocoin.app/',
+                label: 'PooCoin',
+                href: 'https://poocoin.app/', // to change
             },
         ],
     },
     {
-        label: 'Security and Audits',
+        label: 'Security',
         icon: 'AuditIcon',
         items: [
             {
-                label: 'Audits',
-                href: 'https://docs.neutronswap.com/security/audits',
-            },
-            {
                 label: 'No Migrator Code',
-                href: 'https://docs.neutronswap.com/security/no-migrator-code',
+                href: 'https://docs.aliendefi.com/security/no-migrator-code',
             },
             {
                 label: 'Emergency Withdraw',
-                href: 'https://docs.neutronswap.com/security/time-lock',
+                href: 'https://docs.aliendefi.com/security/emergency-withdraw',
             },
             {
                 label: 'Timelock',
-                href: 'https://docs.neutronswap.com/security/emergency-withdraw',
+                href: 'https://docs.aliendefi.com/security/time-lock',
             },
         ],
     },
     {
-        label: 'Links',
+        label: 'Socials',
         icon: 'MoreIcon',
         items: [
             {
                 label: 'Github',
-                href: 'https://github.com/NeutronSwap/',
+                href: 'https://github.com/AlienDefi/',
             },
             {
                 label: 'Docs',
-                href: 'https://docs.neutronswap.com/',
-            },
-            {
-                label: 'Blog',
-                href: 'https://neutronswap.medium.com/',
+                href: 'https://docs.aliendefi.com/',
             },
         ],
-    },
+    }
 ];
 var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/NeutronSwap"
+        href: "https://t.me/AlienDefi"
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/NeutronSwap",
+        href: "https://twitter.com/AlienDefi",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/NeutronSwap",
+        href: "https://www.reddit.com/r/AlienDefi/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2349,7 +2347,7 @@ var Container = styled__default['default'].div(templateObject_1$8 || (templateOb
 });
 var PriceLink = styled__default['default'].a(templateObject_2$3 || (templateObject_2$3 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
-var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 16px;\n"])), MENU_ENTRY_HEIGHT);
+var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 5 16px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 5 16px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
     var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
     if (!isPushed) {
@@ -2798,20 +2796,20 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#eb2f96",
-    primaryBright: "#eb2f96",
-    primaryDark: "#eb2f96",
-    secondary: "#22075e",
+    primary: "#ffa39e",
+    primaryBright: "#ffa39e",
+    primaryDark: "#ffa39e",
+    secondary: "#ffa39e",
     success: "#31D0AA",
     warning: "#FFB237",
 };
 var brandColors = {
-    binance: "#eb2f96",
+    binance: "#ffa39e",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#531dab", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#ff4d4f", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#d3adf7", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#efdbff", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#d3adf7", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#ff4d4f", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

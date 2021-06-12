@@ -19,119 +19,118 @@ export const links =[
     ],
   },
   {
-    label: 'Farms',
+    label: 'Stake',
     icon: 'FarmIcon',
-    href: '/farms',
-  },
-  {
-    label: 'Nests',
-    icon: 'PoolIcon',
-    href: '/nests',
-  },
-  {
-    label: 'Referrals',
-    icon: 'GroupsIcon',
-    href: '/referrals',
-  },
-  {
-    label: 'Features',
-    icon: 'RoadmapIcon',
     items: [
       {
-        label: 'FairPlay Technology',
-        href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
+        label: 'Farm',
+        href: '/farms',
       },
       {
-        label: 'Automatic Emission Reduction',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
-      },
-      {
-        label: 'Automatic Liquidity',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
-      },
-      {
-        label: 'Automatic Burning',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+        label: 'Nest',
+        href: '/nests',
       }
     ],
   },
   {
-    label: 'Charts',
+    label: 'Referral',
+    icon: 'GroupsIcon',
+    href: '/referrals',
+  },
+  {
+    label: 'Layered Farming',
+    icon: 'LayerIcon',
+    href: '/comingsoon',
+  },
+  {
+    label: 'Anti-Bots',
+    icon: 'NftIcon',
+    href: 'https://docs.aliendefi.com/core-features/next-gen-antibots',
+  },
+  {
+    label: 'Core Features',
+    icon: 'RoadmapIcon',
+    items: [
+      {
+        label: 'Automatic Emission Reduction',
+        href: 'https://docs.aliendefi.com/core-features/automatic-emission-reduction',
+      },
+      {
+        label: 'Automatic Liquidity and Burning',
+        href: 'https://docs.aliendefi.com/core-features/automated-liquidity-and-burning',
+      },
+      {
+        label: 'Harvest Lockup',
+        href: 'https://docs.aliendefi.com/core-features/harvest-lockup',
+      }
+    ],
+  },
+  {
+    label: 'Analytics',
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap (Available on launch)',
-        href: 'https://pancakeswap.info/token/',
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/', // to change
       },
       {
-        label: 'AstroTools (Available on launch)',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/',
-      },
-      {
-        label: 'PooCoin (Available on launch)',
-        href: 'https://poocoin.app/',
+        label: 'PooCoin',
+        href: 'https://poocoin.app/', // to change
       },
     ],
   },
   {
-    label: 'Security and Audits',
+    label: 'Security',
     icon: 'AuditIcon',
     items: [
       {
-        label: 'Audits',
-        href: 'https://docs.neutronswap.com/security/audits',
-      },
-      {
         label: 'No Migrator Code',
-        href: 'https://docs.neutronswap.com/security/no-migrator-code',
+        href: 'https://docs.aliendefi.com/security/no-migrator-code',
       },
       {
         label: 'Emergency Withdraw',
-        href: 'https://docs.neutronswap.com/security/time-lock',
+        href: 'https://docs.aliendefi.com/security/emergency-withdraw',
       },
       {
         label: 'Timelock',
-        href: 'https://docs.neutronswap.com/security/emergency-withdraw',
+        href: 'https://docs.aliendefi.com/security/time-lock',
       },
     ],
   },
   {
-    label: 'Links',
+    label: 'Socials',
     icon: 'MoreIcon',
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/NeutronSwap/',
+        href: 'https://github.com/AlienDefi/',
       },
       {
         label: 'Docs',
-        href: 'https://docs.neutronswap.com/',
-      },
-      {
-        label: 'Blog',
-        href: 'https://neutronswap.medium.com/',
+        href: 'https://docs.aliendefi.com/',
       },
     ],
-  },
+  }
 ]
 
 export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/NeutronSwap"
+    href: "https://t.me/AlienDefi"
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/NeutronSwap",
+    href: "https://twitter.com/AlienDefi",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/NeutronSwap",
+    href: "https://www.reddit.com/r/AlienDefi/",
   },
 ];
+
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
