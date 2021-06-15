@@ -10,7 +10,7 @@ export const links =[
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=',// toChange
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xBAd82AB2690794C427251Ae8e7fB80D736058D5c',// toChange
       },
       {
         label: 'Liquidity',
@@ -71,11 +71,11 @@ export const links =[
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/', // to change
+        href: 'https://pancakeswap.info/token/0xBAd82AB2690794C427251Ae8e7fB80D736058D5c', // to change
       },
       {
         label: 'PooCoin',
-        href: 'https://poocoin.app/', // to change
+        href: 'https://poocoin.app/tokens/0xBAd82AB2690794C427251Ae8e7fB80D736058D5c', // to change
       },
     ],
   },

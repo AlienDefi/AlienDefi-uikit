@@ -2103,7 +2103,7 @@ var links = [
         items: [
             {
                 label: 'Exchange',
-                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=', // toChange
+                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xBAd82AB2690794C427251Ae8e7fB80D736058D5c', // toChange
             },
             {
                 label: 'Liquidity',
@@ -2164,11 +2164,11 @@ var links = [
         items: [
             {
                 label: 'PancakeSwap',
-                href: 'https://pancakeswap.info/token/', // to change
+                href: 'https://pancakeswap.info/token/0xBAd82AB2690794C427251Ae8e7fB80D736058D5c', // to change
             },
             {
                 label: 'PooCoin',
-                href: 'https://poocoin.app/', // to change
+                href: 'https://poocoin.app/tokens/0xBAd82AB2690794C427251Ae8e7fB80D736058D5c', // to change
             },
         ],
     },
@@ -2383,6 +2383,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
+        React.createElement("a", { href: "https://rugdoc.io/project/alien-defi" },
+            React.createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", alt: "badge" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$7;
